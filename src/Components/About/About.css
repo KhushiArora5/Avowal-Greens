@@ -1,0 +1,43 @@
+h2 {
+    margin-left: 1rem;
+    font-size: 3rem;
+    color: #003737;
+}
+
+.line {
+    width: 17rem;
+    height: 1rem;
+    border-radius: 0% 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    background-color: #639595;
+}
+
+.about_us {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    gap: 10%;
+}
+
+.about__me {
+    place-items: center;
+    border-radius: 2rem;
+}
+
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(0);
+    transition: var(--transition);
+
+}
+
+.about__me-image:hover {
+    transform: rotate(20deg);
+}
+
+.about_content {
+    color: #003737;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
