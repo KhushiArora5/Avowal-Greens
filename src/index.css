@@ -11,8 +11,8 @@
 }
 
 :root {
-  --color-bg: #2D882D;
-  --color-bg-variant: #85C785;
+  --color-bg: #277554;
+  --color-bg-variant: #0F5A3A;
   --color-primary: #834716;
   --color-primary-over: #F9CCA6;
   --color-white: #fff;
@@ -50,7 +50,6 @@ h1 {
   font-size: 4rem;
   font-family: 'Rouge Script';
   text-decoration: underline;
-  color: #5B0000;
 }
 
 section {
@@ -63,7 +62,7 @@ section {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-white);
   transition: var(--transition);
 }
 

@@ -1,8 +1,8 @@
 import React from 'react'
-import './About.css';
+import './Greens.css';
 import me from '../../Assets/me.jpeg';
 
-const About = () => {
+const Greens = () => {
   return (
     <section id='about'>
       <div className="box1">
@@ -32,4 +32,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Greens

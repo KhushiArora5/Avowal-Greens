@@ -43,21 +43,8 @@ h2 {
     font-weight: 700;
 }
 
-.box2>.about_us{
-    grid-template-columns: 30% 70%;
-    margin-left: 7rem;
-}
-
-u{
-    text-decoration: underline;
-}
 /*============== MEDIA QUERIES(MEDIUM DEVICES) =========*/
-@media screen and (max-width: 1024px) {
-    .about_us{
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-}
+@media screen and (max-width: 1024px) {}
 
 /*============== MEDIA QUERIES(SMALL DEVICES) =========*/
 @media screen and (max-width: 600px) {}
