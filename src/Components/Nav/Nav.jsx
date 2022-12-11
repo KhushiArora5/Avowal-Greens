@@ -3,6 +3,7 @@ import './Nav.css';
 import {FaHome} from 'react-icons/fa';
 import {BiUserCircle} from 'react-icons/bi';
 import {FaRegHandshake} from 'react-icons/fa';
+import {GiGreenhouse} from 'react-icons/gi';
 import {AiOutlineMessage} from 'react-icons/ai';
 import { useState } from 'react';
 
@@ -18,6 +19,8 @@ const Nav = () => {
         <BiUserCircle/></a>
       <a href="#comm" onClick={() => setActiveNav('#comm')} className={activeNav === '#comm' ? 'active' : ''}>
         <FaRegHandshake/></a>
+      <a href="#greens" onClick={() => setActiveNav('#greens')} className={activeNav === '#greens' ? 'active' : ''}>
+        <GiGreenhouse/></a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
         <AiOutlineMessage/></a>
     </nav>

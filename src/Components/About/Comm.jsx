@@ -18,7 +18,7 @@ const Comm = () => {
 
           <div className="about_content">
             <p>
-            <u>Environmental sustainability :</u> 
+            <u>Environmental Sustainability :</u> 
             We focus on inculcating concepts of vertical 
             farming, indoor farming, hydrophonics & other 
             soilless production in our cultivation to keep 

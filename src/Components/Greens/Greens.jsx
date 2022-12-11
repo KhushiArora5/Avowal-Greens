@@ -1,29 +1,37 @@
 import React from 'react'
 import './Greens.css';
-import me from '../../Assets/me.jpeg';
+import micro from '../../Assets/micro.png';
+import macro from '../../Assets/macro.png';
 
 const Greens = () => {
   return (
-    <section id='about'>
+    <section id='greens'>
       <div className="box1">
-        <h2>Get To Know About Us</h2>
+        <h2>Micro and Macro Greens</h2>
         <div className="line"></div>
         
-        <div className="container about_us">
-          <div className="about__me">
-              <div className="about__me-image">
-                <img src={me} alt="image" />
+        <div className="container greens">
+          <div className="g__me">
+              <div className="g__me-image1">
+                <img src={micro} alt="image" />
+              </div>
+              
+              <div className="g__me-image">
+                <img src={macro} alt="image" />
               </div>
           </div>
 
-          <div className="about_content">
+          <div className="g_content">
+            <p className='p1'>
+              <u>Micro Greens</u> are vegetable greens harvested just after the 
+              cotyledon leaves have developed with one set of true leaves. 
+              They are used as a nutrition supplement, a visual enhancement, 
+              and a flavor and texture enhancement.  
+            </p>
             <p>
-            At #avowalgreens we are concerned about #climatechange, 
-            #environment, #nature and the planet #earth. We are suppliers 
-            and producers of micro and macro greens. We deliver to you hassle free the most organic and quality produce.
-            You can rely us on for consistent, fresh and timely
-            supply of your greens. 
-            We believe and promote sustainable agriculture practises.
+              <u>Macro Greens</u> is a true green superfood containing 38 ingredients 
+              that feed the body at a cellular level. It nourishes the body with antioxidants,
+              co-nutrients, enzymes, vitamins, minerals and amino acids. 
             </p>
           </div>
         </div>
